@@ -14,17 +14,20 @@ class CategorySeeder extends Seeder
     {
         Category::create([
             'name' => 'Web Development',
-            'slug' => 'web-development'
+            'slug' => 'web-development',
+            'color' => 'blue-100'
         ]);
 
         Category::create([
             'name' => 'artificial Intelligence',
-            'slug' => 'ai'
+            'slug' => 'ai',
+            'color' => 'red-100'
         ]);
 
         Category::create([
             'name' => 'mobile Development',
-            'slug' => 'mobile-development'
+            'slug' => 'mobile-development',
+            'color' => 'green-100'
         ]);
     }
 }
